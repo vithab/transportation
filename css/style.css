@@ -1,0 +1,203 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto.woff2") format("woff2"),
+    url("../fonts/roboto.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/robotomedium.woff2") format("woff2"),
+    url("../fonts/robotomedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/robotobold.woff2") format("woff2"),
+    url("../fonts/robotobold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Variables */
+
+:root {
+  --basic-dark-grey: #2F343A;
+  --basic-light-grey: #393F47;
+  --basic-white: #FFFFFF;
+  --basic-gold: #C8A35F;
+}
+
+/* Global */
+
+body {
+  min-width: 1110px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-white);
+  background-color: var(--basic-dark-grey);
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Сжимаем картинки до размера контейнера
+  чтоб избежать заливку больших картинок */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* main-header-top */
+.main-header-top {
+  background-color: var(--basic-gold);
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.main-header-top a {
+  color: var(--basic-white);
+}
+
+.language a {
+  color: var(--basic-white);
+  text-transform: uppercase;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--basic-white);
+  background-color: var(--basic-dark-grey);
+}
+
+.site-navigation, .alt-services_list {
+  list-style: none;
+}
+
+.main-navigation-wrapper a {
+  color: var(--basic-white);
+}
+
+.site-navigation a {
+  text-transform: uppercase;
+}
+
+.first-screen {
+  width: auto;
+  height: 620px;
+  text-align: center;
+  background-image: url("../img/white_track.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.big-header-text {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.mid-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.small-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.first-screen p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.services {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.button {
+  width: 220px;
+  height: 55px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--basic-gold);
+  border: none;
+}
+
+.alt-services-item a {
+  font-size: 18px;
+  color: var(--basic-white);
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.about-company ul {
+  list-style: none;
+}
+
+.about-company p {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.about-company-card {
+  display: inline-block;
+  width: 200px;
+  height: 160px;
+  text-align: center;
+  color: var(--basic-dark-grey);
+  background-color: var(--basic-white);
+  border: 1;
+}
+
+/* main-footer */
+.main-footer {
+  background-color: var(--basic-gold);
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.main-footer a {
+  color: var(--basic-white);
+}
