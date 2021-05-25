@@ -10,36 +10,44 @@
 <body class="page-body">
   
 <header class="main-header">
-  <div class="main-header-top">
-    <div class="language">
-      <a href="">рус</a>
-      <a href="">eng</a>
-      <a href="">fr</a>
-    </div>
-    <div>
-      <a href="tel:+78001234567">+7 (800) 123-45-67</a>
-    </div>
-    <div>
-      <span>sales@transportation.ru</span>
+  <div class="top-wrapper">
+    <div class="main-header-top">
+      <div class="language">
+        <a href="">рус</a>
+        <a href="">eng</a>
+        <a href="">fr</a>
+      </div>
+      <div>
+        <a href="tel:+78001234567">+7 (800) 123-45-67</a>
+      </div>
+      <div>
+        <span>sales@transportation.ru</span>
+      </div>
     </div>
   </div>
-  
   <nav class="main-navigation">
+<!--
     <a class="main-header-logo">
       <img src="img/logo.svg" width="160" height="46" alt="Логотип компании">
     </a>
-    <div class="main-navigation-wrapper">
-      <div class="container">
-        <a>
-          <img src="img/placeholder.svg" width="25" height="25" alt="">
-        </a>
-        <a href="">Наши офисы</a>
-        <ul class="site-navigation">
-          <li><a href="">Услуги</a></li>
-          <li><a href="">О компании</a></li>
-          <li><a href="">Вакансии</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
+-->
+    <div class="main-header-bar">
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <a class="main-header-logo">
+            <img src="img/logo.svg" width="160" height="46" alt="Логотип компании">
+          </a>
+          <a>
+            <img src="img/placeholder.svg" width="25" height="25" alt="">
+          </a>
+          <a href="">Наши офисы</a>
+          <ul class="site-navigation">
+            <li><a href="">Услуги</a></li>
+            <li><a href="">О компании</a></li>
+            <li><a href="">Вакансии</a></li>
+            <li><a href="">Контакты</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -109,9 +117,11 @@
     <ul>
       <li>
         <div class="about-company-card">
-          <span class="big-header-text">48</span><br>
-          <span class="mid-text">офисов</span><br>
-          <span class="small-text">в Европе и СНГ</span>
+          <div class="wrapper">
+            <span class="big-header-text">48</span><br>
+            <span class="mid-text">офисов</span><br>
+            <span class="small-text">в Европе и СНГ</span>
+          </div>
         </div>
       </li>
       <li>
@@ -121,8 +131,16 @@
           <span class="small-text">Volvo, Scania</span>
         </div>
       </li>
-      <li><img src="img/red_track.jpg" width="200" height="160" alt=""></li>
-      <li><img src="img/red_track.jpg" width="200" height="160" alt=""></li>
+      <li>
+        <div class="about-company-card">
+          <img src="img/red_track.jpg" width="200" height="160" alt="">
+        </div>
+      </li>
+      <li>
+        <div class="about-company-card">
+          <img src="img/red_track.jpg" width="200" height="160" alt="">
+        </div>
+      </li>
       <li>
         <div class="about-company-card">
           <span class="big-header-text">1000</span><br>
@@ -140,26 +158,28 @@
 </main>
 
 <footer class="main-footer">
-  <section>
-    <h2>Логотип</h2>
-    <a>
-      <img src="img/logo-footer.svg" width="160" height="46" alt="Логотип компании">
-    </a>
-  </section>
-  
-  <section class="footer-address">
-    <h2>Как нас найти</h2>
-    <p>123456, Санкт-Петербург, Невский пр-кт 127</p>
-    <p>sales@transportation.ru</p>
-  </section>
-  
-  <section class="footer-phone">
-    <h2>Как связаться</h2>
-    <p>
-      <a href="tel:+78123445665">+7 (812) 344-56-65</a><br>
-      <a href="tel:+78001234567">+7 (800) 123-45-67</a>
-    </p>
-  </section>
+  <div class="container">
+    <section>
+      <h2>Логотип</h2>
+      <a>
+        <img src="img/logo-footer.svg" width="160" height="46" alt="Логотип компании">
+      </a>
+    </section>
+
+    <section class="footer-address">
+      <h2>Как нас найти</h2>
+      <p>123456, Санкт-Петербург, Невский пр-кт 127</p>
+      <p>sales@transportation.ru</p>
+    </section>
+
+    <section class="footer-phone">
+      <h2>Как связаться</h2>
+      <p>
+        <a href="tel:+78123445665">+7 (812) 344-56-65</a><br>
+        <a href="tel:+78001234567">+7 (800) 123-45-67</a>
+      </p>
+    </section>
+  </div>
 </footer>
 </body>
 </html>
